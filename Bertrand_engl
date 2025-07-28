@@ -1,0 +1,321 @@
+Accepted designations:
+All tags starting with the symbol "\" correspond to the tags of the Latex standard: \sum_{i=1}^{n} a_i
+Euclid defined a point as: "A point is something that has no properties." From here on, the Euclidian
+point is ep (Euclidian Point). The main property in further discussions is the size. I would also like
+to note that I agree with Euclid's definition, but I would like to expand it as follows: "A point is a
+figure, all existing dimensions of which are equal to zero." That is, a point of zero size/sizes almost
+completely corresponds to Euclid's definition. But it has a size or several dimensions, despite the
+fact that the size or dimensions of such a point are equal to zero. And it has a dimension, which means
+that it has a property, unlike the Euclidian point. For example, a point of a one-dimensional
+continuous set - a segment, is a segment of zero length, a point of a square is a square of zero area,
+etc. Such points will be called nep (Non Euclidian Point) below.
+Since the text will not be short, I will limit myself to considering the issue of mutual mapping of
+one-dimensional figures on a plane. By figures I will mean continuous, limited in size (length),
+infinite sets nep. We will call such sets Cs (continues set). From here on, sets will be called Cs,
+unless otherwise specified. When speaking about the size and limitedness of Cs, it is necessary to
+postulate their existence, since one always follows from the other and cannot be determined
+independently. The size of Cs will be considered to be a real number Len equal to the ratio of the size
+of Cs to the size of Cs1, where the size of Cs1 is taken to be 1. I will also note that as a unit Cs,
+one can use not only a unit segment, but also a unit circle, arc, etc.
+Now we will introduce the concept of a finite element Cs - fel (Finitie Element). The finite element of
+Cs, S, is Cs which is a subset of S of non-zero dimensions.
+The finite element of n-rank, frn (fel of rate n), of a set S, is called fel, which is the part of S
+obtained by partitioning S into n disjoint parts, so that the size of each /frn_{i} of rank n+1 is less
+than the size of /frn_i of rank n, (where i is a natural number), for i<=n, and /frn_{i+1} of rank n+1
+is less than the size of /frn_i of rank n. The sizes of the elements - frn may not be equal to each
+other. In what follows, since all frn are unique within S, then for them, speaking about the operations
+of equality, inequality or comparison frn on < > <= >=, we will mean the corresponding operation
+applied to their sizes, unless otherwise specified.
+Then the size of frn:
+Lenfrn = \lim{n\to\infty} \frac{lenS}{n} becomes the size of fel converted to nep, since Lenfel becomes
+0.
+However, I consider it important that despite the zero size, fel itself, becoming nep, does not lose
+dimension and its dimension is equal to the dimension of the set S.
+Of course, for any finite n, arbitrarily large, Lenfrn is small but not equal to zero.
+Now, about what all this is for. Let us put in correspondence two Cs, S1 and S2, so that to each fel
+from S1, there corresponds a fel from S2. Such a correspondence will be called a fel-mapping of S1 onto
+S2. In what follows, we will call a fel-mapping, simply, a mapping, unless otherwise stated. A mapping
+of n-rank is a mapping such that each frn from S1 corresponds to exactly one frn from S2, and the rank
+of these frn is the same. We will also call n the rank of the partition of the set. Note also that for
+identical mappings, such as the mapping of S1 into S2=S1, the corresponding frn of S1 coincide with
+those in S2 and are equal as geometric figures.
+It should be noted that for brevity, only mappings of sets of eqal dimensions are considered. However,
+generally speaking, it is possible to define mappings of sets whose dimensions do not coincide. In this
+case, speaking about equality, inequality, or comparison of the corresponding frn of S1 and S2 on < >
+<= >=, we mean the correspondence of their sizes, according to the corresponding dimensions, unless
+otherwise specified. For example, the size of a 2-d frn square, compared to the size of a 1-d frn
+segment, will be the size of the side that is mapped onto the segment or, in general, the size of the
+projection mapping the square onto the segment. However, it is not advisable to talk about this in more
+detail, since our goal is the Bertrown paradox, not writing a book.
+Now, a few more words about the Euclidean point, - ep. Now I will show that neither ep nor nep are
+suitable for describing mappings. The fact is that neither ep nor nep have the countability property
+and no increments or neighborhood epsilon will help to express the ratio of the sizes of the mapped
+sets through the ratio of the numbers of points. In the general case, the number of points and the
+length cannot be put in correspondence. At the same time, frn have this property, regardless of the
+rank value and will be useful for directly expressing the problem of calculating the ratios of the
+numbers frn of the mapped sets. As will be seen below, the solution to the Bertrand paradox is not at
+all difficult technically. The main difficulty lies in substantiating the correctness of the solution
+and it is here that the concepts introduced will be very useful. Therefore, I ask you, friends, to be
+patient and read to the end.
+I will dare to say that despite the fact that Euclid's V postulate works great, but strictly speaking,
+it is not true. Or rather, it is true when formulated in terms of frn. Moreover, it is in terms of frn
+that it turns into a theorem that is easy to prove and the necessity of this postulate is abolished.
+Once again, I ask you not to rush to be indignant, but read to the end. Otherwise, the solutions to the
+Bertrand paradox, which will be at the very end, will not be accepted by you as justified.
+I would also like to note that ep remains a useful mathematical abstraction and I will use it in my
+reasoning.
+Now, let's return to mappings. As was already said above, one-dimensional figures on the plane -
+segments, circles and arcs of circles - will act as Cs. Let's start with segments.
+Let there be a right triangle (see fig1). Let us consider the mapping of the set Sb, ep - points of the
+leg b, onto the set Sc, ep - points of the hypotenuse C, obtained by constructing segments from each ep
+lying on Sb to the point ep corresponding to it by construction - onto Sc so that each segment of the
+mapping is parallel to the leg a. Obviously, for each ep Ebi of the leg b, there must correspond one
+and only one point Eci of the hypotenuse c. This means that:
+\sum_{i=1}^{infty} Ebi = \sum_{i=1}^{/infty} Eci,
+and the limit of the ratio of these sums:
+\lim{i\to\infty} \frac{\sum_{i=1}^{infty} Ebi}{\sum_{i=1}^{/infty} Eci} = 1
+And this means that the quantities ep cannot reflect the fact that c is not equal to b, in the general
+case. Only at α=0, this equality is satisfied. Moreover, to maintain the correspondence of the numbers
+of points, Ebi and Eci, it is necessary to require from the set of smaller size Sb, to provide any
+necessary number of points from the larger set Sc.
+Thus, it can be assumed that it is the size of the larger of the 2 displayed sets that reflects the
+relative size in the elements of the display between the corresponding parts of these sets. This is a
+very important conclusion.
+Similarly, the situation is the same with the mapping of arcs described from the vertex of some angle
+α, with radii r and R, r<R, when the ends of each arc lie on the opposite rays of the specified angle
+(see fig2). If the mapping is defined by dividing the specified arcs into an arbitrarily large number
+of parts n, then the number of parts on both arcs is always the same and equal to n, and the ratio of
+the quantities of these parts is always equal to 1, up to the case n = /infty, which means, in turn,
+that the quantities Ep on these arcs are equal. But this does not reflect the fact that L=Rα, and l=rα
+and L/l=R/r.
+Now and further, it will be clear how the concepts of nep and fel-mappings allow us to solve the
+problem of calculating the ratios of the quantities of elements of the mapped sets, while mappings
+expressed in terms of ep will lead to errors.
+To begin with, we define the simplest case of sets - a homogeneous set. A homogeneous set is a set in
+which, when dividing the set into n equal parts, the beginning of any element except the n-th, i-th, is
+symmetrical to the end of the i+1-th element.
+For flat geometric figures, the property of homogeneity is possessed, for example, by segments, angles
+and circles. For circles and angles, the previous statement is also true for the n-th element of the
+partition, since they are closed and the n-th is not the last. But we will omit such nuances for the
+sake of brevity of an already spacious exposition.
+Next, we introduce the concept of a mapping coordinate.
+A mapping coordinate of a set S1 onto a set S2 is a homogeneous set S3 for which S1 and S2 are mapped
+onto S3 so that for any rank of the mapping, each of frn of the set S3, corresponds to exactly one
+unique pair of frn, in which one frn belongs to S1 and the other to S2.
+The convenience of coordinates is that they are easily divided into equal parts, and the size frn of
+any rank can be easily obtained from the total size and rank, by simple division.
+We will call the mapping of sets using coordinates a coordinate mapping. Further, mappings will be
+called coordinate mappings, unless otherwise stated.
+Some examples.
+For example, for the mapping (fig 1), it is convenient to choose the coordinate, the set S - a segment
+of the numerical axis of real numbers, coinciding with the leg b, and the beginning of the axis
+coincides with the point A. It is obvious that the sizes frn Sb and S (coordinates and leg b) are
+equal. In this case, for each pair frn Sc and Sb, given a common frn coordinate S, the relation l1/l2=
+cosα is true, where l1 and l2 are the sizes of the corresponding frn Sb and Sc.
+For the mapping (fig 2), it is convenient to choose the angle of the arcs as the coordinate. In this
+case, l1/l2=R/r.
+Obviously, for any pair of mapped sets S1, S2, we can choose any number of coordinates. Since we are
+talking about one-dimensional figures on a plane, we will be interested in pairs of coordinates, since
+the plane, being a 2-d continuum, corresponds to exactly this number of coordinates. Of such pairs,
+orthogonal coordinates are the most convenient. We can say about such coordinates that they are not
+mappable onto each other. "How?" - you ask, - "The axes OX and OY have a common point O!" Yes, they
+have a common point ep and in terms of ep, perpendicular segments are mappable onto each other. But in
+terms of nep, we speak of mappings as frn mappings. And given that the segments are one-dimensional,
+that is, have no transverse dimensions, orthogonal segments cannot be projected onto each other,
+obtaining nep - the image of one segment, onto the second. In general, one could define orthogonal
+coordinates as sets mappable in terms of ep - mappings, which are intuitively clear to us: - orthogonal
+coordinates, as sets mappable in terms of ep - mappings, can have one single mapping element - ep. This
+is not the essence - choose any definition that you like more or give your own, without changing the
+essence.
+In the case of Bertrand's paradox, we need to calculate the ratio of the quantities frn both for
+different sections of one set and for different sections of different sets.
+Consider the mapping of the set S1 onto S2, in the orthogonal coordinate system X, Y. Let, for
+definiteness, we are talking about the Cartesian coordinate system. Accordingly, let the functions Y1
+(x)=S1(x) and Y2(x)=S1(x) be the familiar Euclidean ep-mappings. Let's not reformulate adgebra in terms
+of nep, to solve the Bertrand paradox!
+As we already know, quantities frn can reflect sizes, while points usually cannot. Let us imagine some
+frn_s1 of the set S1. Let it correspond to a pair frn_x, frn_y, coordinates X, Y, respectively. Then
+the sizes of this triple frn are related by the Pythagorean theorem:
+frn_s1 =\sqrt(frn_x^2 + frn_y^2)
+which corresponds to the well-known expression: dl=\sqrt(dx^2 + dy^2), but expressed in finite
+increments corresponding to the sizes of the corresponding frn.
+However, the main thing is that it is now completely clear that in order to calculate the required
+ratios, it is necessary to use precisely the ratios of lengths along functions on given intervals. The
+solutions will not be complicated, but the main conclusion is made right now and it will allow us to
+justify the correctness of these solutions.
+However, let us still prove "what is now completely clear".
+Let there be two sets S1 and S2, including the case S2=S1. Let there be two intervals (x1, x2) and (x3,
+x4) coordinates X, which may or may not overlap. Let us denote the length along Y1(x)=S1(x) on the
+interval (x1, x2) as Ls1, and the length along Y2(x)=S2(x) on the interval (x3, x4) as Ls2. Now -
+attention! We will not consider the mapping of S1 onto S2, since it implies equality of the numbers frn
+when dividing S1 and S2, since we defined the mapping as a set of one-to-one correspondences and this
+means that the rank of frn (denoted frns1) from S1 and the rank of frn (denoted frns2) from S2 are the
+same. This gives us frns1_i/frns2_i=Ls1/Ls2, which can be useful in solving a number of problems, but
+not in the Bertrand paradox problem.
+Let us denote the division ranks of the sets S1 and S2 as k and p, respectively. Then:
+Ls1 = \sigma_{i=1}^{k} frns1_i= k*frns1
+Ls2 = \sigma_{i=1}^{p} frns2_i= p*frns2
+In this case, we are not interested in the correspondence between the sets and we have the right to
+divide them into equal parts, which means frns1_i=frns1 and frns2_i= frns2.
+Now the ratio forn along the functions has a different meaning: Ls1/Ls2 = (k*frns1)/(p*frns2)
+Obviously, it is always possible to choose k and p so that frns1/frns2 would differ from 1 as little as
+desired. The ratio of such k and p is equal to the ratio of the lengths Ls1/Ls2 and expresses the ratio
+of the numbers of EQUAL elements of the sets S1 and S2. This is exactly what we need. Neither Euclidean
+points ep, nor non-Euclidean ones - nep, can express what finite elements frn express in this context.
+This is because when finite increments tend to zero and their number to infinity, the information
+useful for our problem disappears at the very moment when the moment of equality of the size of finite
+elements to zero and their number to infinity is reached. The problem of integration as finding the
+limit of an integral sum does not suffer from this, but our problem is different - we calculate the
+ratios of the summand elements of different sums. In this case, it is useful to stop in the point,
+arbitrarily close to infinity. This is because, peering into infinity, I feel like zero! Hilbert did
+not say this. Your humble servant came up with this.
+
+Now, boring and simple details remain, behind which is the solution to Bertrand's paradox.
+Let there be two intervals (x1, x2) and (x3, x4) of the coordinate X, while mapping of the set S1 onto
+the set S2, for which it is required to calculate the ratio m of the numbers of mapped elements a12 and
+a34. Then, obviously, it is necessary to calculate the ratio of the lengths Ls1, Ls2 along the
+functions, Y1=S1(x) and Y2=S2(x), respectively, as: 
+m=\frac{\int_{x1}^{x2}dLs1}{\int_{x3}^{x4}dLs2}
+Then, in the Cartesian coordinate system: 
+dLs1=sqrt(1+(S1'(x))^2)dx, 
+dLs2=sqrt(1+(S2'(x))^2)dx
+and in the polar one we replace the coordinate designations X, Y with ρ, α 
+dLs1=sqrt(ρ1(α)^2+(ρ1'(α))^2)dα,
+dLs2=sqrt(ρ2(α)^2+(ρ2'(α))^2)dα
+where ρ1 and ρ2 are radius vector functions of the angle x, sliding along S1(x) and S2(x),
+respectively.
+Now we are almost ready to solve the Bertrand paradox problem.
+Now I will show that there is no paradox and the question of the selection mechanism is far-fetched.
+The probability of equally probable events is equal to the ratio of the number of favorable events to
+their total number, with both tending to infinity. I deliberately avoid the term "frequency", since it
+will not be needed.
+
+The first case, the "method of random ends", is the simplest and most natural of the three proposed by
+the author of the paradox. That is why, on the first try, I intuitively came to the conclusion that the
+correct result is given by the 1st solution: 1/3.
+The proof that you are reading came later.
+Let's consider a circle (fig 3), divided vertically by a diameter NS. Let S be the vertex of an
+inscribed regular triangle, which is not shown so as not to clutter the figure. We will not need it,
+and all we need from it is to know that since the angle β, with the vertex at the point S, is measured
+from the vertical SN counterclockwise, it takes the value β2 = π / 6, if its ray is directed to the
+vertex of the indicated regular triangle, located to the left and above S. This is important because
+the chords of favorable events, in the left semicircle constructed from S lie in the sector β1 = 0, β2
+= π / 6, the full set of chords from S, in this semicircle, lies in the sector β1 = 0, β3 = π / 2. We
+choose the angle β as the coordinate of the mapping of the arc bounded by β1, β2 onto the arc of the
+entire semicircle bounded by β1, β3.
+The figure shows:
+R=R(β) is the radius vector from point S to an arbitrary point M on the left semicircle.
+r is the radius of the circle with the center O
+ρ is the radius of the circle with the center S
+Let us consider the mapping of the arc - the left upper quadrant of the circle S onto the arc - the
+left semicircle O, SMN. As has already been said, the angle β is chosen as the coordinate and the
+circle S is suitable for the mapped set (as well as for the set into which the mapping occurs), since
+its frn are distributed equally over the angle β, which cannot be said about the frn of the arc SMN.
+
+Obviously:
+dL=2rdβ
+dl=(ρ/R)dLcosβ = (ρ/R)rcosβdβ
+considering R=rcosβ, we get:
+dL/dl = (ρ/2r)dβ
+from which it follows that m as the ratio of integrals is equal to the ratio of the lengths of the
+corresponding arcs. Or rather, the opposite is true, since m is equal to them by definition. So, the
+last calculations from the word "Obviously:" are redundant. But for the sake of clarity, I decided not
+to delete them.
+Of course, the ratio of the length of the arc MN to the length of the arc MN could also be obtained by
+the ratio of the central angles α1=π/3 and α2=π, of the indicated arcs, but the calculations, at least,
+prove that the method I proposed works, even in this simple case, since for the angles β1=π/6 and
+β2=π/2 their ratio is also equal to 1/3.
+I will also note that the simplicity and naturalness of the first case of the paradox allowed its
+author to find the correct solution, since the sizes of the displayed sets are strictly proportional to
+the coordinate. In this case, the ratio of the intervals of the coordinates is equal to the ratio of
+the sizes of the arcs and the solution is correct. However, as will be seen below, this is not always
+the case.
+I will also note that a small program in C++ also gives the result 1/3. It numerically calculates the
+ratio of the number of favorable chords to the total number. Chords are generated from pairs of points
+whose coordinates are obtained as a result of the work of the generator of the normal distribution of
+pseudo-random integers. The generator is from the standard library. Everything is objective there. Link
+to the code - https://github.com/IgorPolozov/Bertrand/new/main.
+
+Let's move on to the second case of the paradox, - the "random radius method", - (fig 4). In defense of
+this method I could only say that since the upper semicircle is reflected on its diameter symmetrically
+relative to the vertical axis of symmetry of the circle, then, it would seem, the full rights of all
+chords in the full set are observed. The set of chords - favorable events, also seems symmetrical
+relative to the specified axis, since it lies on the interval -r / 2, +r / 2. That is, due to the
+specified "symmetries", the equality of all favorable and unfavorable events is observed.
+Unfortunately, these arguments lack rigor and now I will present a rigorous proof that the 2nd version
+of the solution to the paradox with the result of 1/2 is an incorrect solution and I will use for this
+my monstrous, but perhaps not sufficiently fully and accurately presented theory. The fact is that
+despite the fact that the segments of their domain of definition of the function on the OX axis are
+equal, they cannot be used to calculate the ratios of the number frn. The numbers frn for finding
+ratios are specified by sets, where the sets frn are larger. In the arc of a semicircle there are
+always more of them than in the segment of the diameter on which this arc rests. That is, the lengths
+of the segments of the radius do not express the sum of the elements of the mapping frn, arcs of a
+circle on each other. But the ratio of the lengths of the arcs - does!
+As stated earlier, the ratio of the quantities frn is specified not by the ratio of the sizes of the
+intervals of coordinates, but by the ratio of the lengths along the functions on these intervals,
+because it is the ratio of these lengths that corresponds to the ratio of the number frn on them.
+Therefore, based on the fact that the ratio of the lengths of the arcs is equal to the ratio of their
+angles, then since: α1 = π / 6 and α2 = π / 2, then their ratio is equal to the ratio of the number of
+vertices of the chords of favorable outcomes, to the number of vertices of the full set of outcomes:
+1/3.
+"So simple?!" - those who had the patience to read to this line will ask. Yes, now it is simple. Be
+patient, friends, there is not much left.
+
+Let's move on to the last, 3rd case of the paradox - "the method of random centers" (fig. 5). I will
+immediately stipulate that this case requires the definition of 2-d frn and 2-d nep, since nep (Non
+Euclidian Point), as part of a circle, is an element of the plane. My "theory" contains attempts at
+reasoning concerning 1-d frn, which are finite elements of one-dimensional figures. But the general
+approach is applicable to frn, of any dimension, and even allows one to build reasoning for mapping
+sets of different dimensions onto each other, but I will not prove this here. I am not a professional
+mathematician and writing a scientific work, the size of a book, is not my task. Although, if there was
+funding, I would try to do this in the company of a decent mathematician. But let's move from lyrics to
+business. The problem is most easily solved in polar coordinates. Angle α is the angle measured
+clockwise from the radius of the circle - OR, drawn horizontally. The differential of the area of the
+circle - dP, we will consider a ring with an internal radius ρ and an external radius ρ + dρ. The
+differential of the area ds, corresponding to the finite element - 2-d frn of the circle will be formed
+by this ring and a small angle dα obtained by rotating OR. This frn contains a 2-d nep point M, which
+we will map onto a larger circle using the chord AB. Of course, this chord is tangent to the circle,
+radius ρ and since the initial value α = 0, it is directed vertically. It is also obvious that the
+problem of calculating the favorable and total numbers of events is reduced to obtaining the value of
+the double integral, over the angle α and radius ρ. Since the case is very simple, we will do this in
+our minds. Let G(ρ,α) be the probability distribution function of obtaining chords, favorable events,
+on a large circle. Let us calculate the probability m at α=const, using G(ρ) at α=const:
+m_ρ=\int_{0}^{R}G(ρ)}dρ
+As can be seen from the figure, the problem of calculating this integral over the radius is completely
+reduced to the second case of the paradox, since all chords, being tangent to the circle of radius ρ,
+are perpendicular to the radius ρ and are divided by it in half. That is, the desired integral is equal
+to 1/3.
+And the outer integral - rotation over α cannot change this value in any way, just as in the second
+case of the paradox. Total - the result: 1/3.
+
+Friends, I apologize for the imperfections of this text, but I was in a hurry to publish it, given the
+increasing density of drone and missile bombings of my city Odessa (Ukraine). My house is located in
+the center, not far from the port (the main target). The distance to the coastline is about 1.5 km, in
+a straight line. For example, on the night of July 25, we had a bombing from 00.30 to 04.30 by about 40
+Shahed type drones. The closest explosions fell, very close. As you can see, even getting enough sleep
+in such conditions is difficult. Therefore, accept this text as is. Please hurry with your comments so
+that I can answer them. :)
+
+And one more thing... As analysts say, this is just the beginning. That is why I decided to leave my
+city and... country. I am far from young and do not represent any interest to the military. However, I
+feel sorry for my inventions, which have not yet been published, but can be useful, having significant
+business potential. Among them,
+- the idea of a completely new principle of a rotary internal combustion engine, which is much more
+technologically advanced in production, reliable and durable in operation, and also better than other
+rotary engines in terms of specific fuel consumption and environmental friendliness. This idea has the
+greatest investment potential and can change the face of a number of industries.
+- a whole group of technological developments in the food industry, among which there are those that
+have already been disclosed and those that are protectable (not published anywhere), among which, the
+technology of improving (conching) chocolate, which allows you to get new qualities of the product,
+being fast and relatively cheap, is disclosed, there is a patent, but it is already free for
+protection. There is also an idea of ​​reducing energy costs in the preparation of sugar syrup Brix 60.
+It is not disclosed and can be patented. - a set of C++ library template classes implementing general-
+purpose algorithms that are more efficient than std/boost analogs. They are well tested. I have not
+disclosed them anywhere.
+In addition, being a good analyst who combines the generation of non-standard ideas with decent
+technical and scientific erudition, I can be useful in a variety of areas, from physics to solving
+applied problems, in the areas of hydro- and gas-dynamics, heat and mass transfer, etc.
+I can also be useful for solving C++ agorithmic and architectural problems that require deep analysis
+and/or a non-standard approach.
+I am ready to consider worthy offers from investors and employers. Write to the messages of my account
+on the website: https://www.quora.com/profile/Igor-Polozov
